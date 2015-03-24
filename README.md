@@ -9,4 +9,5 @@ Requires
 ========
 
 * python2.6
+* lxml
 
