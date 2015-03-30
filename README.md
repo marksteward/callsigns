@@ -14,7 +14,8 @@ How to use
 3. If your run is successful, copy `foundation_new.txt` to
    `foundation.txt`, and submit a pull request.
 
-If you're creating a list for a new prefix, you can use the following
+If you're creating a list for a new prefix, or want to check for callsigns
+that have been returned to the pool, you can use the following
 command to generate all possible three-letter callsigns for a prefix:
     ./generate_callsigns.py M7 > ./callsigns.txt
 
