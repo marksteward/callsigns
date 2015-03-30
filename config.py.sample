@@ -1,0 +1,7 @@
+# Your email and password for services.ofcom.org.uk
+email = 'email@example.com'
+password = 'mypassword'
+
+# The application ID for your license (you need to start the application and
+# enter your application number and station address first)
+appid = '1-1AA1AA'
