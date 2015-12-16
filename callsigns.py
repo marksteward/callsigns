@@ -1,4 +1,4 @@
-#!/usr/bin/env python -u
+#!/usr/bin/env python
 import sys
 from urllib import urlencode
 import urllib2
