@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
-from __future__ import division, absolute_import, print_function, unicode_literals
+from __future__ import division
 import sys
 
 if len(sys.argv) != 2:
