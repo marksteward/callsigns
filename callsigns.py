@@ -24,8 +24,9 @@ urllib2.install_opener(opener)
 def browse(url, params=None):
     if params is not None:
         params = urlencode(params)
-        page = urllib2.urlopen(BASE_URL + url, params)
-        return etree.HTML(page.read())
+
+    page = urllib2.urlopen(BASE_URL + url, params)
+    return etree.HTML(page.read())
 
 logged_in = browse('', {
     'username': email,
